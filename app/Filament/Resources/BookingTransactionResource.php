@@ -46,10 +46,10 @@ class BookingTransactionResource extends Resource
                     ->prefix('Days'),
 
                 Forms\Components\DatePicker::make('started_at')
-                    ->requried(),
+                    ->required(),
 
                 Forms\Components\DatePicker::make('ended_at')
-                    ->requried(),
+                    ->required(),
 
                 Forms\Components\Select::make('is_paid')
                     ->options([
